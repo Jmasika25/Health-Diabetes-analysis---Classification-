@@ -14,6 +14,7 @@ Model building and prediction - Logistic Regression and Rnadom Forest Classifier
 Model Deployment - Pipelines were created using the most optimal model from the model prediction step. The model was saved using the joblib.dump function 
 
 import joblib
+
 joblib.dump(pipe, 'model_pipeline.pkl'
 
 Gradio was used to finally deploy the model into an API key for use.
